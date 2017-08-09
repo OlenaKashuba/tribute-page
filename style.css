@@ -1,0 +1,299 @@
+
+body {
+  font-family: "PT Sans", sans-serif;
+  background-color: #D4D4D4;
+  color: #000000;
+  font-size: 18px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-menu {
+  background-color: #7F7F7F;
+}
+
+.main-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 32.9%;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 1.11rem;
+  padding-bottom: 1.11rem;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.main-menu a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.main-menu a:hover {
+  text-decoration: underline;
+}
+
+.main-menu a:active {
+  color: #A82222;
+  opacity: 0.6;
+}
+
+.promo h1 {
+  font-size: 4.5rem;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-family: 'Walted Turncoat', cursive;
+  color: #343477;
+  background-color: #ffffff;
+  letter-spacing: 0.5rem;
+  
+}
+
+.photo {
+  width: 60%;
+  margin: 0 auto;
+  position: relative; 
+ 
+}
+
+.photo img {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 50px rgba(0,0,0,0.3);
+}
+
+.photo figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.about {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0;
+  padding-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+  font-family: 'Walted Turncoat', cursive;
+  color: #343477;
+  background-color: #ffffff;
+}
+
+.about p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  text-align: justify;
+  text-indent: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.2rem;
+}
+
+.records {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.records h2 {
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0;
+  padding-left: 5rem;
+  margin-top: 2rem;
+  font-family: 'Walted Turncoat', cursive;
+  color: #343477;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.records h3 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  padding-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.records ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 4.5rem;
+}
+
+.records li {
+  margin-bottom: 0.5rem;
+}
+
+.records span {
+  color: #952121;
+  background-color: #ffffff;
+}
+
+.records li:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  border: 0.06rem solid #AA3939;
+  border-width: 0.06rem 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.records-tdg {
+  float: left;
+  width: 50%;
+}
+
+.records-sa {
+  float: left;
+  width: 50%;
+}
+
+.background {
+  background-color: #7F7F7F;
+
+}
+
+.read-more {
+  width: 100%;
+}
+
+.read-more a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+.read-more a:hover {
+  text-decoration: underline;
+}
+
+.read-more a:active {
+  color: #A82222;
+  opacity: 0.6;
+}
+
+
+.read-more .link-item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 24%;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.read-more h2 {
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0;
+  padding-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-family: 'Walted Turncoat', cursive;
+  color: #343477;
+  background-color: #ffffff;
+}
+
+.main-footer {
+  background-color: #ffffff;
+  color: #343477
+}
+
+.footer-copyright {
+  box-sizing: border-box;;
+  float: left;
+  width: 50%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.footer-nav {
+  box-sizing: border-box;
+  float: right;
+  width: 50%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.footer-copyright p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-copyright a {
+  text-decoration: none;
+  color: #343477;
+  font-weight: bold;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #343477;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+}
+
+.main-footer a:active {
+  color: #343477;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 974px) {
+  .container {
+    width: 100%;
+  }
+  
+}
+
+
+
+
+
