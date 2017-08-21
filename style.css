@@ -67,7 +67,7 @@ body {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 2rem;
-  font-family: 'Walted Turncoat', cursive;
+  font-family: 'Walter Turncoat', cursive;
   color: #343477;
   background-color: #ffffff;
   letter-spacing: 0.5rem;
@@ -77,7 +77,7 @@ body {
 .photo {
   width: 60%;
   margin: 0 auto;
-  position: relative; 
+  position: relative;
  
 }
 
@@ -85,15 +85,17 @@ body {
   width: 100%;
   margin: 0 auto;
   box-shadow: 0 0 50px rgba(0,0,0,0.3);
+
+  
 }
 
 .photo figcaption {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     text-align: center;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
     width: 100%;
     background: rgba(255, 255, 255, 0.7);
 }
@@ -103,14 +105,16 @@ body {
   padding-right: 1.5rem;
 }
 
-.about h2 {
+.about h2,
+.records h2,
+.read-more h2 {
   font-size: 2.5rem;
   padding: 0;
   margin: 0;
   padding-left: 5rem;
   margin-top: 2rem;
   margin-bottom: 1.2rem;
-  font-family: 'Walted Turncoat', cursive;
+  font-family: 'Walter Turncoat', cursive;
   color: #343477;
   background-color: #ffffff;
 }
@@ -129,18 +133,6 @@ body {
 .records {
   width: 100%;
   box-sizing: border-box;
-}
-
-.records h2 {
-  font-size: 2.5rem;
-  padding: 0;
-  margin: 0;
-  padding-left: 5rem;
-  margin-top: 2rem;
-  font-family: 'Walted Turncoat', cursive;
-  color: #343477;
-  background-color: #ffffff;
-  font-weight: bold;
 }
 
 .records h3 {
@@ -225,15 +217,7 @@ body {
 }
 
 .read-more h2 {
-  font-size: 2.5rem;
-  padding: 0;
-  margin: 0;
-  padding-left: 5rem;
-  margin-top: 2rem;
   margin-bottom: 3rem;
-  font-family: 'Walted Turncoat', cursive;
-  color: #343477;
-  background-color: #ffffff;
 }
 
 .main-footer {
